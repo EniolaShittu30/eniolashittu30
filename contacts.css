@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times;
+    color: beige;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body > header{
+    height: 10vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(25, 16, 139);
+    font-family: "ubuntu", "alegyra", 'Times New Roman', Times;
+} 
+
+body > header > nav > a {
+    text-decoration: wavy;
+    color: rgb(251, 156, 172);
+}
+
+#bottom {
+    color: rgb(251, 156, 172);
+    font-family: "ubuntu", "alegyra", 'Times New Roman', Times;
+}

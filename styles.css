@@ -1,0 +1,190 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', serif;
+}
+
+body > header{
+    height: 10vh; 
+    display: flex; 
+    align-items: first baseline;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 5%;
+} 
+
+#logo {
+    color: rgb(25, 16, 139);
+    font-family: "Ubuntu", 'Times New Roman', serif;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    font-size: 4vw;
+}
+
+body {
+    margin: 0%;
+}
+
+#meninblue {
+    position: relative;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-overlay {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, -190%);
+    color: beige; 
+    text-align: center;
+    font-size: 4vw; 
+    padding: 20px; 
+}
+
+body > header > nav > li{ 
+    justify-content: flex-end;    
+}
+
+#anchor {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.links {
+    text-decoration: none; 
+    list-style: none; 
+    color: rgb(251, 156, 172); 
+    margin-left: 3vw; 
+    margin-right: 3vw; 
+    font-family: "Ubuntu", 'Times New Roman', serif;
+}
+
+body > main > article {
+    width: 100%; 
+    text-align: justify;
+}
+
+form {
+    box-align: center; 
+    text-align: center; 
+    justify-content: center;
+    margin-left: 3%;
+}
+
+body > footer {
+    display: flex;
+    font-family: "Ubuntu", 'Times New Roman', serif;
+    align-items: first baseline;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 5%;
+}
+
+#bottom {
+    margin-left: 12px;
+    display: flex;
+    list-style: none;
+}
+
+#bottom > div > li > a {
+    color: rgb(251, 156, 172); 
+    text-decoration: none; 
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+body > footer > h4 {
+    font-size: 3vw; 
+    color: rgb(25, 16, 139); 
+    font-family: "Ubuntu", 'Times New Roman', serif;
+    margin-left: 5%; 
+    text-align: center; 
+    font-weight: bolder;
+}
+
+body > main > h3 {
+    font-family: "Ubuntu", 'Times New Roman', serif;
+    color: rgb(251, 156, 172);  
+    text-align: center;
+    background-color: black;
+
+}
+
+body > main > div > p {
+    text-align: center;
+    justify-content: space-around;
+}
+
+body > hr {
+    border: 1;
+    height: 0px;
+    background-color: beige;
+    margin: 0%; margin-bottom: 1.5px;
+    color: beige;
+}
+
+body > main > hr {
+    border: 0;
+    height: 1.5px;
+    background-color: azure;
+    margin: 0%; margin-top: 5px;
+}
+
+#submit {
+    background-color: rgb(251, 156, 172);
+    border: none;
+    cursor: grabbing;
+    color: beige;
+    border-radius: 10%;
+    padding-left: 3vw; padding-right: 3vw;
+    padding-top: 1vw; padding-bottom: 1vw;
+    font-family: "Ubuntu", 'Times New Roman';
+}
+
+body > main > form > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+
+form {
+    font-family: "Ubuntu", 'Times New Roman', serif;
+    background-color: black;
+    color: beige;
+}
+
+body > main > article > footer > div > a {
+    text-decoration: none;
+}
+
+body > main > article > footer > div {
+    display: flex;
+    align-items: center
+}
+
+div {
+    margin: 0;
+}
+
+footer > h3 {
+    color: beige;
+}
+
+footer > h4 {
+    color: beige;
+}
+
+#linkedin > a {
+    color: beige;
+}
+
+#meat {
+    display: flex;
+    justify-content: center;
+}

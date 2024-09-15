@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(246, 246, 235);
+    font-family: 'Times New Roman', Times;
+    color:black;
+    text-align: center;
+    margin: 0%;
+}
+
+body > header{
+    height: 10vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(25, 16, 139);
+    font-family: "ubuntu", "alegyra", 'Times New Roman';} 
+
+body > header > h1 {
+    margin-right: 5%;
+}
+
+
+body > header > nav > a {
+    text-decoration: wavy;
+    color: rgb(25, 16, 139);
+    margin-left: 5%;
+    background-color: black;
+}
+
+#bottom {
+    color: rgb(25, 16, 139);
+    font-family: "ubuntu", "alegyra", 'Times New Roman', Times;
+}
+
+#one { 
+    width: 900px;
+    height: 900px;
+    background-position: center;
+}
+
+#two{ 
+    width: 900px;
+    height: 900px;
+    background-position: center;
+}
+
+#three{ 
+    width: 900px;
+    height: 900px;
+    background-position: center;
+}
+
+#four{
+    width: 900px;
+    height: 900px;
+    background-position: center;
+}
+
+#five { 
+    width: 900px;
+    height: 900px;
+    background-position: center;
+}
+
+#six {
+    width: 900px;
+    height: 900px;
+    background-position: center;
+}
+
+#seven{
+    width: 900px;
+    height: 800px;
+    background-position: center;
+}
